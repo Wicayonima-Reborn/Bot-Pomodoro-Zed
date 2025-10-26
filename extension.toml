@@ -1,0 +1,12 @@
+id = "coding-tracker"
+name = "Coding Time Tracker"
+version = "0.1.0"
+description = "Track waktu coding otomatis di Zed"
+authors = ["Wicayonima <wicaksonodeveloper@gmail.com>"]
+repository = "https://github.com/Wicayonima-Reborn/Bot-Pomodoro-Zed.git"
+schema_version = 1
+
+[lib]
+kind = "Rust"
+
+entry = "target/release/coding_tracker.dll"

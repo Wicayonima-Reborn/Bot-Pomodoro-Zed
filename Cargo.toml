@@ -1,0 +1,20 @@
+[package]
+name = "zed-coding-tracker"
+version = "0.2.0"
+edition = "2021"
+authors = ["Wicayonima <wicaksonodeveloper@gmail.com>"]
+description = "Track your coding time in Zed with persistent stats"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+zed_extension_api = "0.1.0"
+
+[profile.release]
+lto = true
+strip = true
+opt-level = "z"
+
+[profile.dev]
+opt-level = 0
