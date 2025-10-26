@@ -345,8 +345,8 @@ MIT License - feel free to use and modify!
 ## 👤 Author
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- Email: your@email.com
+- GitHub: [@Wicayonima-Reborn](https://github.com/Wicayonima-Reborn)
+- Email: wicaksonodeveloper@gmail.com
 
 ---
 
@@ -362,9 +362,9 @@ MIT License - feel free to use and modify!
 
 Kalau ada issue atau pertanyaan:
 
-1. 🐛 [Open an issue](https://github.com/yourusername/zed-coding-tracker/issues)
-2. 💬 [Discussions](https://github.com/yourusername/zed-coding-tracker/discussions)
-3. 📧 Email: your@email.com
+1. 🐛 [Open an issue](https://github.com/Wicayonima-Reborn/zed-coding-tracker/issues)
+2. 💬 [Discussions](https://github.com/Wicayonima-Reborn/zed-coding-tracker/discussions)
+3. 📧 Email: wicaksonodeveloper@gmail.com
 
 ---
 
