@@ -3,7 +3,7 @@
 
 Write-Host ""
 Write-Host "╔════════════════════════════════════════════╗" -ForegroundColor Cyan
-Write-Host "║  Zed Coding Tracker Extension Installer   ║" -ForegroundColor Cyan
+Write-Host "║  Zed Coding Tracker Extension Installer    ║" -ForegroundColor Cyan
 Write-Host "╚════════════════════════════════════════════╝" -ForegroundColor Cyan
 Write-Host ""
 
