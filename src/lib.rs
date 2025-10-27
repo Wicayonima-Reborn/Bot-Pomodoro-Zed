@@ -5,7 +5,7 @@ use std::thread;
 use std::time::{Duration, Instant, SystemTime, UNIX_EPOCH};
 use zed_extension_api as zed;
 
-// Struktur data
+// Struktur datanya
 #[derive(Debug, Clone)]
 struct Session {
     start_timestamp: u64,
@@ -102,8 +102,7 @@ impl Storage {
 
     fn save(&self, data: &TrackerData) {
         let mut content = String::new();
-        content.push_str(&format!("TOTAL_SECONDS={}\n", data.total_time_seconds));
-        
+        content.push_str(&format!("TOTAL_SECONDS={}\n", data.total_time_seconds));   
         for session in &data.sessions {
             let end = session.end_timestamp.unwrap_or(0);
             content.push_str(&format!(
