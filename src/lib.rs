@@ -217,7 +217,7 @@ impl TrackerState {
         let all_time_total = self.data.total_time_seconds + current_duration;
 
         eprintln!("\n╔══════════════════════════════════════════════╗");
-        eprintln!("║          Coding Session Summary            ║");
+        eprintln!("║          Coding Session Summary              ║");
         eprintln!("╠══════════════════════════════════════════════╣");
         eprintln!("║  This Session: {:<28}║", TrackerData::format_duration(current_duration));
         eprintln!("║  Today Total:  {:<28}║", TrackerData::format_duration(today_total));
@@ -231,7 +231,7 @@ impl TrackerState {
         let today_total = self.data.get_today_total() + current;
         
         eprintln!(
-            "[Tracker] ⏰ Current: {} | Today: {} | All-Time: {}",
+            "[Tracker]  Current: {} | Today: {} | All-Time: {}",
             TrackerData::format_duration(current),
             TrackerData::format_duration(today_total),
             TrackerData::format_duration(self.data.total_time_seconds + current)

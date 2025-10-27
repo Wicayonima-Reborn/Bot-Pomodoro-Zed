@@ -1,4 +1,4 @@
-# 🎯 Zed Coding Tracker Extension
+#  Zed Coding Tracker Extension
 
 > Track your coding time in Zed Editor with persistent statistics and automatic session management.
 
@@ -10,34 +10,34 @@
 
 ## ✨ Features
 
-- ⏱️ **Automatic Time Tracking** - Mulai tracking otomatis saat Zed dibuka
-- 💾 **Persistent Storage** - Data tersimpan antar session
-- 📊 **Multi-Level Statistics** - Track current session, daily, dan all-time
-- 🔔 **Periodic Updates** - Status update tiap 10 menit
-- 📝 **Session History** - Simpan semua coding session
-- 🎨 **Rich Logging** - ASCII art summary dengan emoji indicators
+-  **Automatic Time Tracking** - Mulai tracking otomatis saat Zed dibuka
+-  **Persistent Storage** - Data tersimpan antar session
+-  **Multi-Level Statistics** - Track current session, daily, dan all-time
+-  **Periodic Updates** - Status update tiap 10 menit
+-  **Session History** - Simpan semua coding session
+-  **Rich Logging** - ASCII art summary dengan emoji indicators
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 ### Session Started
 ```
 [Tracker] Session started at 2025-10-26
 [Tracker] All-time total: 45h 23m 10s
 [Tracker] Today's total: 2h 15m 30s
-[Tracker] 🚀 Extension initialized!
+[Tracker]  Extension initialized!
 ```
 
 ### Periodic Update (Every 10 minutes)
 ```
-[Tracker] ⏰ Current: 23m 45s | Today: 2h 39m 15s | All-Time: 45h 46m 55s
+[Tracker]  Current: 23m 45s | Today: 2h 39m 15s | All-Time: 45h 46m 55s
 ```
 
 ### Session Summary (When Zed Closes)
 ```
 ╔══════════════════════════════════════════════╗
-║        🎯 Coding Session Summary            ║
+║            Coding Session Summary            ║
 ╠══════════════════════════════════════════════╣
 ║  This Session: 1h 23m 45s                   ║
 ║  Today Total:  3h 45m 12s                   ║
@@ -45,12 +45,12 @@
 ║  Total Sessions: 28                         ║
 ╚══════════════════════════════════════════════╝
 
-[Tracker] 💾 Session saved!
+[Tracker]  Session saved!
 ```
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 
@@ -60,11 +60,40 @@
 
 ### Installation
 
+#### Using Install Script (Recommended)
+
+**Windows:**
+```powershell
+# Clone project
+git clone https://github.com/Wicayonima-Reborn/zed-coding-tracker
+cd zed-coding-tracker
+
+# Run install script
+.\install.ps1
+
+# Restart Zed
+```
+
+**Linux / macOS:**
+```bash
+# Clone project
+git clone https://github.com/Wicayonima-Reborn/zed-coding-tracker
+cd zed-coding-tracker
+
+# Make script executable and run
+chmod +x install.sh
+./install.sh
+
+# Restart Zed
+```
+
+#### Manual Installation
+
 #### 🪟 Windows
 
 ```powershell
 # 1. Clone atau download project
-git clone https://github.com/yourusername/zed-coding-tracker
+git clone https://github.com/Wicayonima-Reborn/zed-coding-tracker
 cd zed-coding-tracker
 
 # 2. Build extension
@@ -81,7 +110,7 @@ xcopy /E /I . "%APPDATA%\Zed\extensions\coding-tracker"
 
 ```bash
 # 1. Clone atau download project
-git clone https://github.com/yourusername/zed-coding-tracker
+git clone https://github.com/Wicayonima-Reborn/zed-coding-tracker
 cd zed-coding-tracker
 
 # 2. Build extension
@@ -96,10 +125,12 @@ cp -r . ~/.config/zed/extensions/coding-tracker/
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 zed-coding-tracker/
+├── install.ps1             # Windows automatic installer
+├── install.sh              # Linux/macOS automatic installer
 ├── Cargo.toml              # Rust package configuration
 ├── extension.toml          # Zed extension manifest
 ├── README.md               # This file
@@ -147,7 +178,7 @@ data_path.push("my-custom-name.txt");
 
 ---
 
-## 📊 Data Storage
+##  Data Storage
 
 ### Lokasi File
 
@@ -172,7 +203,7 @@ SESSION|2025-10-24|1729680000|1729687200|7200
 
 ---
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Extension Tidak Muncul
 
@@ -183,6 +214,9 @@ dir "%APPDATA%\Zed\extensions\coding-tracker"
 
 # Cek DLL
 dir "%APPDATA%\Zed\extensions\coding-tracker\target\release\*.dll"
+
+# Re-run install script
+.\install.ps1
 ```
 
 **Linux/macOS:**
@@ -192,6 +226,9 @@ ls -la ~/.config/zed/extensions/coding-tracker
 
 # Cek shared library
 ls -la ~/.config/zed/extensions/coding-tracker/target/release/*.{so,dylib}
+
+# Re-run install script
+./install.sh
 ```
 
 **Solusi:**
@@ -276,7 +313,7 @@ Kontribusi welcome! Silakan:
 
 ---
 
-## 📝 Development
+##  Development
 
 ### Run Tests
 
@@ -311,14 +348,14 @@ cargo build --release --target x86_64-pc-windows-msvc
 
 ## 🔐 Privacy & Security
 
-- ✅ **Semua data disimpan lokal** - Tidak ada data yang dikirim ke server
-- ✅ **No telemetry** - Extension tidak tracking apapun selain waktu coding
-- ✅ **Open source** - Kode bisa diaudit siapa saja
-- ✅ **Simple data format** - Text file, mudah di-backup atau dihapus
+-  **Semua data disimpan lokal** - Tidak ada data yang dikirim ke server
+-  **No telemetry** - Extension tidak tracking apapun selain waktu coding
+-  **Open source** - Kode bisa diaudit siapa saja
+-  **Simple data format** - Text file, mudah di-backup atau dihapus
 
 ---
 
-## 📦 Uninstall
+##  Uninstall
 
 ### Windows
 ```powershell
