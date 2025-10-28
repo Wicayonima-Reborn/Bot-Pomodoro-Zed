@@ -39,10 +39,10 @@
 ╔══════════════════════════════════════════════╗
 ║            Coding Session Summary            ║
 ╠══════════════════════════════════════════════╣
-║  This Session: 1h 23m 45s                   ║
-║  Today Total:  3h 45m 12s                   ║
-║  All-Time:     47h 10m 23s                  ║
-║  Total Sessions: 28                         ║
+║  This Session: 1h 23m 45s                    ║
+║  Today Total:  3h 45m 12s                    ║
+║  All-Time:     47h 10m 23s                   ║
+║  Total Sessions: 28                          ║
 ╚══════════════════════════════════════════════╝
 
 [Tracker]  Session saved!
