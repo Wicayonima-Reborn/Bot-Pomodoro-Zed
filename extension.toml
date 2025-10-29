@@ -1,5 +1,5 @@
 id = "coding-tracker"
-name = "Coding Time Tracker"
+name = "Coding Time Pomodoro Tracker"
 version = "0.1.0"
 description = "Track waktu coding otomatis di Zed"
 authors = ["Wicayonima <wicaksonodeveloper@gmail.com>"]
